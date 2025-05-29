@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+
+# VS Code
+.vscode/
+.vs/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Local config
+appsettings.Development.json
+
+# OS files
+Thumbs.db
+.DS_Store
