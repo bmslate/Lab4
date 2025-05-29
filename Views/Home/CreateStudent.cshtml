@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Lab4.Models.Student
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h2>Enter Student Information:</h2>
+
+<form asp-controller="Home" asp-action="DisplayStudent" method="post">
+    <p>First Name: <input asp-for="FirstName" /></p>
+    <p>Last Name: <input asp-for="LastName" /></p>
+    <p>Student ID: <input asp-for="StudentId" type="number" /></p>
+    <p>Email: <input asp-for="EmailAddress" type="email" /></p>
+    <p>Password: <input asp-for="PassWord" type="password" /></p>
+    <p>Description: <textarea asp-for="Description"></textarea></p>
+    <button type="submit">Submit</button>
+    
+</form>

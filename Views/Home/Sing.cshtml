@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Sing";
+    int monkeys = (int)ViewBag.MonkeyCount;
+    String gender, parent,gender1;
+}
+<h2>Five Little Monkeys</h2>
+
+@for(int i=monkeys; i >=1; i--){
+    gender = (i % 2 == 0) ? "her" : "his";
+    parent = (i % 2 == 0) ? "Mama" : "Papa";
+
+    if (i == 1)
+    {
+        gender1 = (i % 2 == 0) ? "She" : "He";
+        
+        <p>
+
+            @i little monkeys jumping on the bed,<br/>
+            @gender1 fell off and bumped @gender head,<br />
+            @parent called the doctor and the doctor said,<br />
+            "No more monkeys jumping on the bed!"<br />
+        </p>
+    }
+    else
+    {
+        <p>
+
+            @i little monkeys jumping on the bed,<br />
+            one fell off and bumped @gender head,<br />
+            @parent called the doctor and the doctor said,<br />
+            "No more monkeys jumping on the bed!"<br />
+        </p>
+    
+    }
+
+}
+
+<p>
+    No little monkeys jumping on the bed,<br />
+    None fell off and bumped their head,<br />
+    Mama called the doctor and the doctor said,<br />
+    "Put those monkeys back to bed!"<br />
+</p>
+
+<form asp-asp-controller="Home" asp-action="SongForm" method="get">
+    <button type="submit">"Play again"</button>
+
+</form>

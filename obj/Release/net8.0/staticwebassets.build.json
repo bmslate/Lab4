@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "hkvtEnwrOiLYwe7ZCWg4+vtNyIEk/gDM7s1w9vK85HU=",
+  "Source": "Lab4",
+  "BasePath": "_content/Lab4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab4\\wwwroot",
+      "Source": "Lab4",
+      "ContentRoot": "C:\\Users\\BU1\\source\\repos\\Lab4\\wwwroot\\",
+      "BasePath": "_content/Lab4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\BU1\\source\\repos\\Lab4\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "Lab4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BU1\\source\\repos\\Lab4\\wwwroot\\",
+      "BasePath": "_content/Lab4",
+      "RelativePath": "css/StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jbvt9q7z04",
+      "Integrity": "MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/StyleSheet.css",
+      "AssetFile": "C:\\Users\\BU1\\source\\repos\\Lab4\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:06:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleSheet.jbvt9q7z04.css",
+      "AssetFile": "C:\\Users\\BU1\\source\\repos\\Lab4\\wwwroot\\css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:06:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jbvt9q7z04"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Lab 4</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+    <!-- Header 区域：你的名字 + 欢迎语 -->
+    <header style="background-color: #f0f0f0; padding: 15px;">
+        <h1>Welcome to Lab 4</h1>
+        <p>Created by Huijun Bu</p>
+        <nav>
+            @Html.ActionLink("Home", "Index", "Home") |
+            @Html.ActionLink("Show the song!", "SongForm", "Home") |
+            @Html.ActionLink("Students", "CreateStudent", "Home")
+        </nav>
+    </header>
+
+    <!-- 主体内容区域 -->
+    <main role="main" style="padding: 20px;">
+        @RenderBody()
+    </main>
+
+    <!-- Footer 区域：解释 Layout 和 CSS 设置 -->
+    <footer style="margin-top: 40px; padding: 20px; border-top: 1px solid #ccc; background-color: #fafafa;">
+        <h3>Layout & CSS Setup Explanation</h3>
+        <ul>
+            <li><strong>What Layout does:</strong> The layout file (_Layout.cshtml) defines a common structure for all views. It includes shared elements such as the header, footer, and navigation bar, ensuring consistency across pages.</li>
+            <li>
+                <strong>Why we place files in those directories:</strong>
+                <ul>
+                    <li><code>_Layout.cshtml</code> is stored in <code>Views/Shared</code> because it is reused by multiple views and should be accessible across controllers.</li>
+                    <li><code>StyleSheet.css</code> is stored in <code>wwwroot/css</code> because <code>wwwroot</code> is the default public folder for static assets like stylesheets, JavaScript, and images in ASP.NET Core projects.</li>
+                </ul>
+            </li>
+            <li><strong>Note:</strong> As required, we did not include the actual contents of the CSS file here.</li>
+        </ul>
+    </footer>
+</body>
+</html>

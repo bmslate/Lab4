@@ -1,0 +1,7 @@
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.exe
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.dll
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.deps.json
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.runtimeconfig.json
+C:\Users\BU1\source\repos\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.pdb

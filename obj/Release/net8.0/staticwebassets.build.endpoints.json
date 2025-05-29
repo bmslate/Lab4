@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "css/StyleSheet.css",
+      "AssetFile": "css/StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:06:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME="
+        }
+      ]
+    },
+    {
+      "Route": "css/StyleSheet.jbvt9q7z04.css",
+      "AssetFile": "css/StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:06:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jbvt9q7z04"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTvjIpQ58+eqDBvOusZc9Cc+56CGW05ySw0i0/J/wME="
+        },
+        {
+          "Name": "label",
+          "Value": "css/StyleSheet.css"
+        }
+      ]
+    }
+  ]
+}
