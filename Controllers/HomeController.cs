@@ -44,5 +44,10 @@ namespace Lab4.Controllers
             ViewData["Error"] = "Error message";
             return View();
         }
+
+        public IActionResult CauseError()
+        {
+            throw new Exception("Test error for demonstration.");
+        }
     }
 }
